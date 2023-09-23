@@ -1,0 +1,73 @@
+
+Git Key Terms: 
+
+Local: These referce to version of you project in your local,personal computer.
+When you make changes in the local,they are not immidiately available to anyone else.
+Changes need to be commited and pushed to remote repo first.
+
+
+Staging Environment:
+  Before you commit all the changes , you can decide which changes will be included in comit by moving chnages into staging env.
+  Staging are like preparation table, where you can line upi your changes, get ready for finalizing first.
+
+Add:
+
+
+Remote: These is the version of your project that is in your internet or another network, often in the platform like Github, GitLab, Bitbucket.
+After commiting the changes locally the commits will be pushed to the remote repo.
+
+
+Commit:
+Once your are sattisfied with the changes you have made.Then you can commit them.
+A commit is like taking a picture of all the changes that yuo have made at the moment.
+
+Repository:
+It contains each file in your project and stores your changes as history
+Think of this as a folder, that git can track(follow) the changes, updates and deletes.
+
+
+Basic commands of git:
+Command is an order that we can execute in the terminal:
+
+git init:  (linking folder to Git technology so it can be tracked)
+   These initializes a new Git repository and begins tracking an existing directory.
+   Adds a hidden subfolder within the existing directory, that houses the internal data structure for version control.
+git add:
+   Adds changes in the directory(folder) to the staging area.It prepares for the commit.
+   git add Python-Day4-Git.txt  <--specify what i want to be added
+   syntax: git add filename
+   We would want to add all the changes in staging environment : (git add -A )   or  (git add ./)
+git commit:
+   Takes all the changes written in staging environment and saves them to the local repo.
+   You should provide a message describing what this commit is for.
+   syntax: git commit -m "Descriptive commit message #time 1h"
+git push: 
+   Pushes commits from your local repository to a remote repository
+   For the first push to a new remote you might need to specify branch as well.
+   First time: git push origin main
+   All other time: git push 
+
+What is Token?(password)
+It is a string of character tat represents a specific permission or authorization.
+In git we can use PAT(Personal Acces Token): A secure token that users generate to authenticate into their github account when using HTTPS protocol
+
+GitHubToken= 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  <-- this is my access token
+https://github.com/zhannakarayeva/devops.git        <-- this is my repo name
+To connect my token to my repo : https://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:github.com/zhannakarayeva/devops.git 
+https://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@github.com/zhannakarayeva/devops.git 
+
+
+
+
+   
+Branching in git is an advanced topic in Git.
+pwd-in which folder i am working /Users/zhannakarayeva/Desktop/PythonB5
+git init 
+ls -A
+git add -A 
+git commit -m "Message "
+git push origin main
+clear -will clear everything in my terminal
+
+
+
