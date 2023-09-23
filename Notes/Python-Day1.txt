@@ -1,0 +1,41 @@
+KEYBOARD SHORTCUTS
+
+Copy --> command + C
+
+Paste --> command +V
+
+Select All --> command+A
+
+Cut --> command+X
+
+Revert Back --> Command+Z
+
+Search Bar --> Command + space
+
+New --> Command + N
+
+ScreenShot --> command + shift +4
+ScreenVideo --> command + shift +5
+
+WindowsScreenShot --> windows +shift + S
+
+saving file-> command + S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

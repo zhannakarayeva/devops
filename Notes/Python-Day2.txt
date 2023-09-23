@@ -1,0 +1,76 @@
+A variable in programming is like a container where we can store the data.
+
+Why do we use variables?
+1.Storage
+  Variables allows us to store data that we can use and modify later
+2.Readability
+  Makes our code easier to understand and debug and find what the data represents.
+  *Debug mostly means goig over the code again for the purpose of understanding and find the mistake.
+3.Reusability
+  Once the value is stored in variable , you can use that variable multiple times in different parts of your code.
+
+
+
+Formulula of the Variable Creation
+variableName = value
+
+Naming a Variable 
+  Rules:
+   Variable name cannot start with number.
+   It can not have spaces
+   It can only contain alphanumeric characters (_) or camelCase.
+      *alphanumeric: numbers and letters
+   Variable names are case sensative which means 'age' is not same as 'Age'.
+
+Naming Conventions
+   * Conventions -> how do you name the variable.
+There are 4 different types of naming conventions:
+   1. camelCase  --> helloWorld, firstName, lastName     <--Java Users
+   2. PascalCase --> UpperCase, FirstName, lastName
+   3. SnakeCase  --> snake_case, first_name, last_name   <--Python Users
+   4. Kebab Case --> snake-case, first-name, last-name 
+
+NOTE: When creating the variable type of variable is auto understood by python.
+
+Type of Numerical Variables:
+   1. Integer:Represents whole numbers. Ex: age=25
+   2. Float: Represents real numbers. (Numbers with decimal points.)  Ex: weight=190.4, avg = 8.0
+   3. Complex: Represents complex numbers that both imaginary and real parts. Ex: 25--root--5;  16--root--4; 0--root--0
+
+Type Function
+  The type () function is a built-in Python function.Used to determine the data type of a variable.
+  Ex: a=10
+      print(type(a)) #output <class 'int'>
+      b=10.1
+      print(type(a)) #output <class 'float'>
+Importance:
+   Help debugging
+   Useful when learning because it helps you to understand how python works with data types.
+
+Creating mMultiple Variables in a Single Line
+   We can define multiple variables in single line by separating them with the commas(,)
+   Syntax: a,b,c = 1.1, 1, "h"
+
+Advantage:
+  Reduce the line of your code 
+  More readable 
+  Compact code 
+
+Assigning Multiple Variables With A Same Value 
+  Ex: a=b=c=d=5
+  In the line above variable a,b,c,d will be assigned with the value 5 and type of all Variables will be int
+
+ReAssignment in Python:
+  After Variables assigned with the value we can assign a new value to them also 
+  Ex: var1=6
+      var1=10
+      print(var1)    and the result is going to 10
+
+
+
+
+
+
+
+      
+  
