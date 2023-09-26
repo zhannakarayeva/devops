@@ -21,6 +21,7 @@ WindowsScreenShot --> windows +shift + S
 
 saving file-> command + S
 
+comment out -->  command + /
 
 
 

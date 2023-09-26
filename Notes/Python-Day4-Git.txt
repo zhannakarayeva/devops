@@ -71,3 +71,8 @@ clear -will clear everything in my terminal
 
 
 
+Pull Request-
+
+
+
+3 ways on copying changes: 
