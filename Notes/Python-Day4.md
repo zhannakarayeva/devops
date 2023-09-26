@@ -54,5 +54,29 @@ For example: `5== '5' `  is `False` because one is str and one is number
 print(1 < 2 < 3)  #True
 ```
 
+## Note!
+- `True` numerically equals to `1` and `False` numerically equals to `0`. 
+For ex:
+```py
+print(int(True))  #1
+print(int(False))  #0
+#When using comparison operators between bool and int type
+#python auto-converts bool type to int.
+print(True == 1) #True
+print(True > False) #True
+print(False < 3) #True
+```
+
+#### Note! Every number except `0` is True.
+
+## Converting Other Types to Bool
+- Converting other types to boolean?
+**bool()** function.
+```py
+b = bool(-2)
+print(b) #True
+b1 = bool(0)
+print(b1) #False
+```
 
 
