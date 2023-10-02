@@ -1,0 +1,63 @@
+SDLC-Software Development Life Cycle
+
+
+1-Requirement Gathering-All the information is collected from the customer to develop a product as according to heir expectations.Product Owner,Stakeholder ask Client what product he needs and how it should be functioning
+DevOps here can work as connecting private vpm.Ask what tool we need, What are we working on.What is owr goal.Why we do.How we do.
+
+
+2-Design the Software-Arhitecture,UX/UI Desiner. 
+
+3-Build the Software/Implementation&Coding-DevOps here will work as development connect environments,Dev Env,we deploy development environment and give them playground to work.
+
+4-Test-configuration environment, CI/CD Jenkins Run,We create Testing Environment for Testers, which called Staging is a copy of production.Behave the same. We dont test on production, because Production Data is a real data, we dont want to mess up with that.
+
+5-Deployment- Once the customer gets that is the release.  Deployment and Release are different.
+Deployment - once i have code redy for env.They ensure that the software is correctly packed up, moved,and set up in the new place.
+
+5-Release-Delivering to the customer.Act like expert movers in deployment.
+3 types of releases:fixed date release, fixed scope release,fixed budget release.
+
+6-Maintenance-is a Phase is a stage in the Software Lifecucle to ensure software is functioning as expected.
+
+
+DevOps role-good understanding of operations in the company,what technologies are you going to use, security configurations that you will need to use.
+Cybersecurity finds an dthen DevOps fix.Expected from DevOps build correct infostructure, what server, technology, help testeing, development,release.
+Strong communication skills, should not be afraid to ask questions and willing to continue learning
+
+DevOps is a methodology and a set of best practice for software development whose primary goals are to shorten delivery 
+times for new software updates while maintaining high quality.
+
+     Software Development & Deployment Process:
+     1.Coding 2.Building 3.Testing 4.Packaging 5.Release 6.Configuring 7.Monitoring
+
+                
+     
+                 Agile has 2 types-Scrum & Kunban
+
+Scrum-->
+
+  Sprint-->is a short,time-boxed period when scrum team works to complete a set amount of work.
+  Sprints are at the very heart of scrum and agile methodology, and getting sprints right will
+   help your agile team ship better software with fewer headaches.
+  On Daily StandUp you say What did you do, What are you going to do,Say if you are blocked on smth.15 min 
+
+
+
+
+
+Kunban-->
+
+Epic-is a big picture/feature, which has divided into multiple small user stories
+User Stories-implementable small piece to work.
+Issue-
+Parent Issue
+
+Velocity-->Velocity is a 
+Capacity-->Capasity is an estimate of the future; 
+
+
+
+Questions: What is toxic env?
+What is exployed?
+Are we also going to do API calls?
+    How do people become DevOps if there is no major for that in University. 
